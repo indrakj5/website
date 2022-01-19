@@ -1,0 +1,38 @@
+body,
+html {
+  height: 100%;
+  background-color: #93faec;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-text {
+    top: 45%;
+    left: 45%;
+  }
+
+  .iframe-container {
+    float: none;
+    clear: both;
+    width: 90%;
+    height: 50%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    padding-right: 20px;
+  }
+}

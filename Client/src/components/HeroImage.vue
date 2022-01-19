@@ -1,0 +1,46 @@
+<template>
+<div>
+<div class="hero-image">
+      <div class="hero-text">
+        <h1>Ayo Kita Travel</h1>
+        <p>Temukan Destinasi Impianmu</p>
+        <button><a href="#destinasi">Pesan Sekarang</a></button>
+      </div>
+    </div>
+</div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/travel.jpg");
+
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: black;
+}
+</style>
